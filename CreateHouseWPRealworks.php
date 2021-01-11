@@ -1,7 +1,25 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
+/**
+ * @file 
+ * 
+ * @brief  Script for adding properties to WP from funda.
+ * 
+ * @details 
+ * 
+ * @author 		Jordi van Nistelrooij @ Webs en Systems
+ * @email 		info@websensystems.nl
+ * @website		https://websensystems.nl
+ * @version 	1.0.0
+ * @date 		2021-01-11
+ * @copyright 	Non of these scripts maybe copied or modified without permission of the authors
+ * 
+ * @note
+ * @todo
+ * @bug
+ */
+
+
 if(isset($_REQUEST["FundaURL"])){
 require_once("wp-config.php");
 
